@@ -1,0 +1,48 @@
+name: Suggest a paper
+description: Propose a paper, dataset, benchmark, or open-source project.
+title: "[Paper] "
+labels: [paper-suggestion]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Paper title
+    validations:
+      required: true
+  - type: input
+    id: venue
+    attributes:
+      label: Venue and year
+      placeholder: CVPR 2026
+    validations:
+      required: true
+  - type: input
+    id: paper
+    attributes:
+      label: Official paper URL
+    validations:
+      required: true
+  - type: input
+    id: code
+    attributes:
+      label: Official code/project URL
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Data / simulation / generation
+        - Representation / open-world perception
+        - Robust training
+        - Test-time adaptation
+        - Evaluation / safety
+        - World model
+    validations:
+      required: true
+  - type: textarea
+    id: fit
+    attributes:
+      label: Why does it belong in this collection?
+      description: Describe the distribution shift, sensor/task setting, and evaluation protocol.
+    validations:
+      required: true

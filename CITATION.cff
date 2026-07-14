@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the accompanying survey."
+title: "Awesome Driving Generalization: Generalization and Adaptation in Real-World Autonomous Driving Perception"
+type: software
+version: 1.0.0
+date-released: 2026-07-14
+authors:
+  - family-names: Wang
+    given-names: Yu
+  - family-names: Wang
+    given-names: Shaohua
+  - family-names: Li
+    given-names: Yicheng
+  - family-names: Sun
+    given-names: Kecheng
+  - family-names: Zuo
+    given-names: Xinxin
+  - family-names: Wang
+    given-names: Yang
+preferred-citation:
+  type: article
+  title: "Generalization and Adaptation in Real-World Autonomous Driving Perception: A Survey"
+  authors:
+    - family-names: Wang
+      given-names: Yu
+    - family-names: Wang
+      given-names: Shaohua
+    - family-names: Li
+      given-names: Yicheng
+    - family-names: Sun
+      given-names: Kecheng
+    - family-names: Zuo
+      given-names: Xinxin
+    - family-names: Wang
+      given-names: Yang
+  year: 2026

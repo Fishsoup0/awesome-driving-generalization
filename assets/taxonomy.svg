@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="610" viewBox="0 0 1200 610" role="img" aria-label="Taxonomy of autonomous driving generalization">
+  <defs><linearGradient id="tbg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f6fbff"/><stop offset="1" stop-color="#eef9f4"/></linearGradient></defs>
+  <rect width="1200" height="610" rx="28" fill="url(#tbg)"/>
+  <text x="600" y="62" text-anchor="middle" font-family="Inter,Arial" font-size="34" font-weight="800" fill="#102a43">Generalization &amp; Adaptation for Real-World Driving Perception</text>
+  <text x="600" y="96" text-anchor="middle" font-family="Inter,Arial" font-size="18" fill="#486581">A lifecycle view: expand coverage → learn invariance → adapt safely → evaluate operational impact</text>
+  <g font-family="Inter,Arial">
+    <g transform="translate(55 135)">
+      <rect width="330" height="325" rx="22" fill="#e8f3ff" stroke="#4086c6" stroke-width="2"/>
+      <text x="165" y="48" text-anchor="middle" font-size="26" font-weight="800" fill="#1f5f99">DATA LEVEL</text>
+      <text x="165" y="92" text-anchor="middle" font-size="17" font-weight="700" fill="#243b53">Coverage &amp; distribution engineering</text>
+      <text x="30" y="132" font-size="17" fill="#334e68">• Diverse real-world datasets</text>
+      <text x="30" y="166" font-size="17" fill="#334e68">• Simulation and neural reconstruction</text>
+      <text x="30" y="200" font-size="17" fill="#334e68">• Controllable rare-scene generation</text>
+      <text x="30" y="234" font-size="17" fill="#334e68">• Corruption and sensor-shift synthesis</text>
+      <text x="30" y="268" font-size="17" fill="#334e68">• Data curation and long-tail retrieval</text>
+    </g>
+    <g transform="translate(435 135)">
+      <rect width="330" height="325" rx="22" fill="#eaf9f2" stroke="#2d9473" stroke-width="2"/>
+      <text x="165" y="48" text-anchor="middle" font-size="26" font-weight="800" fill="#177354">MODEL LEVEL</text>
+      <text x="165" y="92" text-anchor="middle" font-size="17" font-weight="700" fill="#243b53">Representation · training · inference</text>
+      <text x="30" y="132" font-size="17" fill="#334e68">• Invariant and causal representations</text>
+      <text x="30" y="166" font-size="17" fill="#334e68">• Open-vocabulary perception</text>
+      <text x="30" y="200" font-size="17" fill="#334e68">• Foundation / label-free pretraining</text>
+      <text x="30" y="234" font-size="17" fill="#334e68">• Test-time and continual adaptation</text>
+      <text x="30" y="268" font-size="17" fill="#334e68">• Parameter-efficient prompting</text>
+    </g>
+    <g transform="translate(815 135)">
+      <rect width="330" height="325" rx="22" fill="#fff4e6" stroke="#d08a2e" stroke-width="2"/>
+      <text x="165" y="48" text-anchor="middle" font-size="26" font-weight="800" fill="#a75d0a">EVALUATION LEVEL</text>
+      <text x="165" y="92" text-anchor="middle" font-size="17" font-weight="700" fill="#243b53">Robustness → safety → closed loop</text>
+      <text x="30" y="132" font-size="17" fill="#334e68">• Corruption and cross-domain tests</text>
+      <text x="30" y="166" font-size="17" fill="#334e68">• Calibration and uncertainty</text>
+      <text x="30" y="200" font-size="17" fill="#334e68">• Worst-group and long-tail metrics</text>
+      <text x="30" y="234" font-size="17" fill="#334e68">• Planner-aware safety metrics</text>
+      <text x="30" y="268" font-size="17" fill="#334e68">• Physics-aware / closed-loop protocols</text>
+    </g>
+    <path d="M385 298H425M765 298H805" stroke="#5f7f95" stroke-width="5" marker-end="url(#none)"/>
+    <g transform="translate(120 500)">
+      <rect width="960" height="70" rx="35" fill="#122b44"/>
+      <text x="480" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#72e6ea">EMERGING FRONTIER</text>
+      <text x="480" y="54" text-anchor="middle" font-size="18" fill="#ffffff">4D occupancy · predictive world models · data–model co-evolution · trustworthy autonomous agents</text>
+    </g>
+  </g>
+</svg>

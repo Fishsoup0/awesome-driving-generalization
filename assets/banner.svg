@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Awesome Driving Generalization banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081426"/>
+      <stop offset="0.55" stop-color="#102f53"/>
+      <stop offset="1" stop-color="#0b6b70"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#213a52" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#07111f" stop-opacity="0.95"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <g opacity="0.13" stroke="#a6f5ff" fill="none">
+    <path d="M0 70H1200M0 140H1200M0 210H1200M0 280H1200"/>
+    <path d="M120 0V360M300 0V360M480 0V360M660 0V360M840 0V360M1020 0V360"/>
+  </g>
+  <path d="M690 360L790 155H1030L1200 360Z" fill="url(#road)"/>
+  <path d="M945 360L910 155" stroke="#f9d66d" stroke-width="6" stroke-dasharray="24 22" opacity="0.9"/>
+  <g filter="url(#glow)">
+    <circle cx="805" cy="117" r="7" fill="#69e4ff"/><circle cx="918" cy="80" r="7" fill="#85ffbf"/><circle cx="1040" cy="125" r="7" fill="#f9d66d"/>
+    <path d="M805 117L918 80L1040 125" stroke="#8cecff" stroke-width="3" fill="none"/>
+  </g>
+  <g transform="translate(850 220)">
+    <path d="M0 52L25 10H132L165 52V95H145V74H22V95H2Z" fill="#63d9e6" opacity="0.92"/>
+    <rect x="43" y="21" width="72" height="28" rx="8" fill="#0a2238"/>
+    <circle cx="36" cy="78" r="17" fill="#07111f" stroke="#d6fbff" stroke-width="4"/>
+    <circle cx="132" cy="78" r="17" fill="#07111f" stroke="#d6fbff" stroke-width="4"/>
+  </g>
+  <text x="68" y="112" fill="#71e8ef" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700" letter-spacing="3">CURATED RESEARCH HUB · 2023—2026</text>
+  <text x="68" y="184" fill="#ffffff" font-family="Inter,Arial,sans-serif" font-size="52" font-weight="800">Awesome Driving</text>
+  <text x="68" y="242" fill="#ffffff" font-family="Inter,Arial,sans-serif" font-size="52" font-weight="800">Generalization</text>
+  <text x="70" y="292" fill="#c8e7f2" font-family="Inter,Arial,sans-serif" font-size="21">Data · Robust perception · Adaptation · Safety · World models</text>
+</svg>
