@@ -2,7 +2,7 @@
 
 <p align="center">
   <img alt="Updated" src="https://img.shields.io/badge/updated-July%202026-0b7285">
-  <img alt="Papers" src="https://img.shields.io/badge/curated%20papers-25+-2563eb">
+  <img alt="Papers" src="https://img.shields.io/badge/curated%20papers-100-2563eb">
   <img alt="Years" src="https://img.shields.io/badge/focus-2023--2026-7c3aed">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-16a34a">
   <img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-f59e0b">
@@ -10,7 +10,7 @@
 
 <h3 align="center">A living research hub for generalization, adaptation, and robustness in autonomous-driving perception.</h3>
 
-This repository accompanies the survey **“Generalization and Adaptation in Real-World Autonomous Driving Perception”**. It turns the paper taxonomy into a maintained, machine-readable collection of recent papers, datasets, benchmarks, metrics, and open-source projects.
+This repository accompanies the survey **“Generalization and Adaptation in Real-World Autonomous Driving Perception”**. Its 100-paper catalog turns the paper taxonomy into a maintained, machine-readable collection of recent papers, datasets, benchmarks, metrics, and open-source projects.
 
 > **Scope.** We prioritize work that explicitly studies distribution shift, long-tail coverage, robust perception, safe adaptation, or evaluation beyond clean-benchmark accuracy. The catalog is curated rather than exhaustive.
 
